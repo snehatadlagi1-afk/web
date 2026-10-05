@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneha | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff8f0;
+            color: #3d2b1f;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #8e2de2, #ff6a00);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        nav {
+            background: #3d2b1f;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffb347;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #8e2de2;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            text-align: center;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .details {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #ff6a00;
+            margin-bottom: 10px;
+        }
+
+        .dance {
+            background: linear-gradient(135deg, #fff0f5, #ffe4c4);
+            text-align: center;
+            border-radius: 15px;
+            padding: 40px 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .dance .symbol {
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #3d2b1f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 36px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            section {
+                margin: 20px auto;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Sneha</h1>
+        <p>Computer Science Engineering Student | Classical Dance Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#hobbies">Hobbies</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about">
+            <p>
+                Hello! My name is <strong>Sneha</strong>.
+                I am from <strong>Vijayapur</strong> and currently studying
+                <strong>Computer Science and Engineering (CSE)</strong>
+                in Davangere.
+            </p>
+
+            <p>
+                I am passionate about technology and I also enjoy
+                classical dance, especially <strong>Bharatanatyam</strong>.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>My Education</h2>
+
+        <div class="details">
+            <div class="card">
+                <h3>Course</h3>
+                <p>Computer Science and Engineering</p>
+            </div>
+
+            <div class="card">
+                <h3>Location</h3>
+                <p>Davangere, Karnataka</p>
+            </div>
+
+            <div class="card">
+                <h3>Hometown</h3>
+                <p>Vijayapur, Karnataka</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Passion</h2>
+
+        <div class="dance">
+            <div class="symbol">💃</div>
+
+            <h3>Bharatanatyam</h3>
+
+            <p>
+                Classical dance is one of my favorite interests.
+                I especially love Bharatanatyam because of its
+                graceful movements, expressions, rhythm, and rich
+                cultural heritage.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Sneha | My Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
